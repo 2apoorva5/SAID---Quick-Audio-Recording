@@ -1,7 +1,7 @@
 # SAID
 **SAID - Quick Audio Recording**
 
-[Get the app on Google Play Store](https://play.google.com/store/apps/details?id=com.developerdepository.said&hl=en_US)
+[Get the app on Google Play Store](https://play.google.com/store/apps/details?id=com.developerdepository.said)
 
 ![Image of Google Play](https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png)
 
