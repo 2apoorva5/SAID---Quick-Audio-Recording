@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">SAID</string>
+    <string name="app_slogan">Record Anything For Later</string>
+    <string name="app_powered_by1">Powered by</string>
+    <string name="app_powered_by2">Developer Depository</string>
+    <string name="rate_dialog_title">Rate SAID</string>
+    <string name="rate_dialog_message">If you like this app, would you mind taking a moment to rate it? It won\'t take more than a minute. Thanks for your support!</string>
+    <string name="rate_dialog_ok">Rate It Now</string>
+    <string name="rate_dialog_cancel">Remind Me Later</string>
+    <string name="record_title_default">Press the mic button\nto start recording.</string>
+    <string name="record_list_btn_dialog_title">Audio Still Recording!</string>
+    <string name="record_list_btn_dialog_message">Are you sure to stop the recording? - It\'ll be saved.</string>
+    <string name="record_cancel_btn_dialog_title">Cancel Current Recording?</string>
+    <string name="record_cancel_btn_dialog_message">Are you sure to cancel the recording? - It\'ll not be saved.</string>
+    <string name="recording_cancelled_toast">Audio recording cancelled.</string>
+    <string name="recording_saved_toast">Audio recorded and saved.</string>
+    <string name="audio_list_title">Saved Audio</string>
+    <string name="audio_empty_text">Whoa! There\'s nothing in here!!</string>
+    <string name="audio_player_name">Audio Player</string>
+    <string name="audio_player_title_default">Not Playing</string>
+    <string name="audio_player_title_playing">Playing</string>
+    <string name="audio_player_title_paused">Paused</string>
+    <string name="audio_player_title_finished">Finished</string>
+    <string name="audio_player_file_name_default">SAID Audio File</string>
+    <string name="delete_file_dialog_title">Delete Audio File?</string>
+    <string name="delete_file_dialog_message">Are you sure to delete this audio file? - The action will be permanent.</string>
+    <string name="delete_file_toast">Audio File Deleted.</string>
+    <string name="cannot_delete_file_toast">Cannot delete. File in use.</string>
+    <string name="list_item_title">SAID Audio File Name</string>
+    <string name="list_item_date">2 days ago</string>
+    <string name="app_info_copyright">&#xa9; 2020 by Developer Depository</string>
+    <string name="app_info_version_name_default">Version</string>
+</resources>
