@@ -1,9 +1,12 @@
 # SAID
+![SAID logo](https://lh3.googleusercontent.com/AYE99vfZPDN4KAowQmFc0h1kIpw5d8o5s3LaL9Ec7wKpjV1b3_PdTmLx51KdC3ka-Q=s180-rw)
+
+
 **SAID - Quick Audio Recording**
 
 [Get the app on Google Play Store](https://play.google.com/store/apps/details?id=com.developerdepository.said)
 
-![Image of Google Play](https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png)
+![Google Play](https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png)
 
 **SAID - Quick Audio Recording** is a free and easy to use audio recorder for Android specifically designed for high-quality and long-time recording with a clean and simple User Interface.
 
@@ -11,6 +14,8 @@ This audio recorder provides high-quality recordings without any time limit - li
 You can use it for recording voice notes and memos, business meetings, interviews, lectures, speeches, concerts, sleep talking :) or anything else.
 
 The app records and saves the recordings in the internal memory of the device which are easily accessible in the app itself. Although, if you want to access the recordings in the internal memory, you can go to *Internal Storage -> Android -> data -> com.developerdepository.said -> files -> audio* and BINGO!  
+
+
 
 
 **Features :**
@@ -25,23 +30,30 @@ The app records and saves the recordings in the internal memory of the device wh
 * Flexible In-App Updates - Lets you download and install any update in the background while using the app.
 
 
+
+
 **Some Screenshots :**
 
 
-![Image of SAID1](https://lh3.googleusercontent.com/UCYpGPWadMUBQzZlmGm7poJy7dls9x1asnRFhuXg7dI_-9YgF_nkxmmjNYiXXMcqXHQ=w1536-h731-rw)
-![Image of SAID2](https://lh3.googleusercontent.com/2KPEnd5RkWsQm5AeDk9Iut535q_iQumJ-jPG__azESLjw-NmbS14LmUEhr6Y4-I0Jw=w1536-h731-rw)
-![Image of SAID3](https://lh3.googleusercontent.com/itfHCUN-SWESD2gP9cTTxhAYKJmsyWY0eIvPSjU4jNsFKUdA3M-GtbR9s2s4uC7x3w=w1536-h731-rw)
-![Image of SAID4](https://lh3.googleusercontent.com/gvKBz6WiIiC6I5eNgWpPz-ErczEeTRRkw0Ntym-7kqbf483Q9MIxzR2PsqXi9DFSDE8=w1536-h731-rw)
-![Image of SAID5](https://lh3.googleusercontent.com/RF5fgLVEHVlIOERQ1IHSv6jGFjm4_gfNpy8cGXQ93O0KpMdQyc6AInsESNpPVgzeHw=w1536-h731-rw)
-![Image of SAID6](https://lh3.googleusercontent.com/Jy1yTdYHcGhlYac4JtKmatm8mHvMBmeWhS-qOsmEUQ205UyyRuWgzw7Q3503u8QqWw=w1536-h731-rw)
-![Image of SAID7](https://lh3.googleusercontent.com/JJ0lFTmZD49-RnRjrXObG6eRvYKdnz0RQiGuC-cVaMciBzl7KiMKwBXHAhJNbNY9ObZc=w1536-h731-rw)
-![Image of SAID8](https://lh3.googleusercontent.com/oISvx09TnfpsGdXIH8lFO9H5jQetuH1Z9J0DgMh7UQ6ccx4JmdyxDlsrVQ-wIe7Dams=w1536-h731-rw)
+
+![SAID Screenshot1](https://lh3.googleusercontent.com/UCYpGPWadMUBQzZlmGm7poJy7dls9x1asnRFhuXg7dI_-9YgF_nkxmmjNYiXXMcqXHQ=w1536-h731-rw)
+![SAID Screenshot2](https://lh3.googleusercontent.com/2KPEnd5RkWsQm5AeDk9Iut535q_iQumJ-jPG__azESLjw-NmbS14LmUEhr6Y4-I0Jw=w1536-h731-rw)
+![SAID Screenshot3](https://lh3.googleusercontent.com/itfHCUN-SWESD2gP9cTTxhAYKJmsyWY0eIvPSjU4jNsFKUdA3M-GtbR9s2s4uC7x3w=w1536-h731-rw)
+![SAID Screenshot4](https://lh3.googleusercontent.com/gvKBz6WiIiC6I5eNgWpPz-ErczEeTRRkw0Ntym-7kqbf483Q9MIxzR2PsqXi9DFSDE8=w1536-h731-rw)
+![SAID Screenshot5](https://lh3.googleusercontent.com/RF5fgLVEHVlIOERQ1IHSv6jGFjm4_gfNpy8cGXQ93O0KpMdQyc6AInsESNpPVgzeHw=w1536-h731-rw)
+![SAID Screenshot6](https://lh3.googleusercontent.com/Jy1yTdYHcGhlYac4JtKmatm8mHvMBmeWhS-qOsmEUQ205UyyRuWgzw7Q3503u8QqWw=w1536-h731-rw)
+![SAID Screenshot7](https://lh3.googleusercontent.com/JJ0lFTmZD49-RnRjrXObG6eRvYKdnz0RQiGuC-cVaMciBzl7KiMKwBXHAhJNbNY9ObZc=w1536-h731-rw)
+![SAID Screenshot8](https://lh3.googleusercontent.com/oISvx09TnfpsGdXIH8lFO9H5jQetuH1Z9J0DgMh7UQ6ccx4JmdyxDlsrVQ-wIe7Dams=w1536-h731-rw)
+
+
 
 
 
 **Privacy Policy :**
 
-Developer Depository led by Apoorva Ranjan owns the right to this app. The app users are bound to this [Privacy Policy](https://developerdepository.wixsite.com/said-policies)
+![Developer Depository](https://lh3.googleusercontent.com/ogw/ADGmqu8NgWrQa5JhxCvnEv91ICHNdKWYL4XmGucirNxr=s32-c-mo)
 
+
+Developer Depository led by Apoorva Ranjan owns the right to this app. The app users are bound to this [Privacy Policy](https://developerdepository.wixsite.com/said-policies)
 
 *Thanks!*
