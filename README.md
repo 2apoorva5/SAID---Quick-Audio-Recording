@@ -37,13 +37,13 @@ The app records and saves the recordings in the internal memory of the device wh
 
 
 ![SAID Screenshot1](https://lh3.googleusercontent.com/UCYpGPWadMUBQzZlmGm7poJy7dls9x1asnRFhuXg7dI_-9YgF_nkxmmjNYiXXMcqXHQ=w720-h310-rw)
-![SAID Screenshot2]()
-![SAID Screenshot3]()
-![SAID Screenshot4]()
-![SAID Screenshot5]()
-![SAID Screenshot6]()
-![SAID Screenshot7]()
-![SAID Screenshot8]()
+![SAID Screenshot2](https://lh3.googleusercontent.com/2KPEnd5RkWsQm5AeDk9Iut535q_iQumJ-jPG__azESLjw-NmbS14LmUEhr6Y4-I0Jw=w720-h310-rw)
+![SAID Screenshot3](https://lh3.googleusercontent.com/itfHCUN-SWESD2gP9cTTxhAYKJmsyWY0eIvPSjU4jNsFKUdA3M-GtbR9s2s4uC7x3w=w720-h310-rw)
+![SAID Screenshot4](https://lh3.googleusercontent.com/gvKBz6WiIiC6I5eNgWpPz-ErczEeTRRkw0Ntym-7kqbf483Q9MIxzR2PsqXi9DFSDE8=w720-h310-rw)
+![SAID Screenshot5](https://lh3.googleusercontent.com/RF5fgLVEHVlIOERQ1IHSv6jGFjm4_gfNpy8cGXQ93O0KpMdQyc6AInsESNpPVgzeHw=w720-h310-rw)
+![SAID Screenshot6](https://lh3.googleusercontent.com/Jy1yTdYHcGhlYac4JtKmatm8mHvMBmeWhS-qOsmEUQ205UyyRuWgzw7Q3503u8QqWw=w720-h310-rw)
+![SAID Screenshot7](https://lh3.googleusercontent.com/JJ0lFTmZD49-RnRjrXObG6eRvYKdnz0RQiGuC-cVaMciBzl7KiMKwBXHAhJNbNY9ObZc=w720-h310-rw)
+![SAID Screenshot8](https://lh3.googleusercontent.com/oISvx09TnfpsGdXIH8lFO9H5jQetuH1Z9J0DgMh7UQ6ccx4JmdyxDlsrVQ-wIe7Dams=w720-h310-rw)
 
 
 
