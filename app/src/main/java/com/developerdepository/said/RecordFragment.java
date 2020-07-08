@@ -6,7 +6,6 @@ import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.content.IntentSender;
 import android.content.pm.PackageManager;
-import android.graphics.Color;
 import android.graphics.Typeface;
 import android.media.MediaRecorder;
 import android.net.Uri;
@@ -51,7 +50,6 @@ import java.util.Date;
 import java.util.Locale;
 
 import hotchemi.android.rate.AppRate;
-import maes.tech.intentanim.CustomIntent;
 
 import static android.app.Activity.RESULT_OK;
 import static android.content.ContentValues.TAG;
@@ -171,8 +169,10 @@ public class RecordFragment extends Fragment implements View.OnClickListener {
                 startActivity(Intent.createChooser(shareIntent, "Share via"));
             } else if(powerMenu.getSelectedPosition() == 3) {
                 powerMenu.dismiss();
-                startActivity(new Intent(getActivity(), AppInfoActivity.class));
-                CustomIntent.customType(getActivity(), "bottom-to-up");
+                Intent appInfoIntent = new Intent(android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
+                appInfoIntent.addCategory(Intent.CATEGORY_DEFAULT);
+                appInfoIntent.setData(Uri.parse("package:" + getActivity().getPackageName()));
+                startActivity(appInfoIntent);
             }
         }
     };
