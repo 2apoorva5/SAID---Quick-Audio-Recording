@@ -8,7 +8,7 @@
 
 ![Google Play](https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png)
 
-**SAID - Quick Audio Recording** is a free and easy to use audio recorder for Android specifically designed for high-quality and long-time recording with a clean and simple User Interface.
+**SAID - Quick Audio Recording** is a free and easy to use audio recorder for Android specifically designed for high-quality and long-time recording with a clean and simple User Interface. It is developed using Android Jetpack Navigation Components for smooth navigation and transition between activities.
 
 This audio recorder provides high-quality recordings without any time limit - limited only by memory size (quite obvious why).
 You can use it for recording voice notes and memos, business meetings, interviews, lectures, speeches, concerts, sleep talking :) or anything else.
