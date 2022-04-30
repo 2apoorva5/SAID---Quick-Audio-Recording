@@ -1,5 +1,8 @@
 package com.developerdepository.said;
 
+import static android.app.Activity.RESULT_OK;
+import static android.content.ContentValues.TAG;
+
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.ActivityNotFoundException;
@@ -37,7 +40,6 @@ import com.google.android.play.core.install.InstallStateUpdatedListener;
 import com.google.android.play.core.install.model.AppUpdateType;
 import com.google.android.play.core.install.model.InstallStatus;
 import com.google.android.play.core.install.model.UpdateAvailability;
-import com.shreyaspatil.MaterialDialog.MaterialDialog;
 import com.skydoves.powermenu.CircularEffect;
 import com.skydoves.powermenu.OnMenuItemClickListener;
 import com.skydoves.powermenu.PowerMenu;
@@ -49,10 +51,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
+import dev.shreyaspatil.MaterialDialog.MaterialDialog;
 import hotchemi.android.rate.AppRate;
-
-import static android.app.Activity.RESULT_OK;
-import static android.content.ContentValues.TAG;
 
 
 /**
@@ -150,7 +150,7 @@ public class RecordFragment extends Fragment implements View.OnClickListener {
                 String privacyPolicyUrl = "https://developerdepository.wixsite.com/said-policies";
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(privacyPolicyUrl));
                 startActivity(browserIntent);
-            } else if(powerMenu.getSelectedPosition() == 1) {
+            } else if (powerMenu.getSelectedPosition() == 1) {
                 powerMenu.dismiss();
                 try {
                     startActivity(new Intent(Intent.ACTION_VIEW,
@@ -159,15 +159,15 @@ public class RecordFragment extends Fragment implements View.OnClickListener {
                     startActivity(new Intent(Intent.ACTION_VIEW,
                             Uri.parse("http://play.google.com/store/apps/details?id=" + getActivity().getPackageName())));
                 }
-            } else if(powerMenu.getSelectedPosition() == 2) {
+            } else if (powerMenu.getSelectedPosition() == 2) {
                 powerMenu.dismiss();
-                Intent shareIntent =   new Intent(android.content.Intent.ACTION_SEND);
+                Intent shareIntent = new Intent(android.content.Intent.ACTION_SEND);
                 shareIntent.setType("text/plain");
-                shareIntent.putExtra(Intent.EXTRA_SUBJECT,"SAID - Quick Audio Recording");
+                shareIntent.putExtra(Intent.EXTRA_SUBJECT, "SAID - Quick Audio Recording");
                 String app_url = " https://play.google.com/store/apps/details?id=" + getActivity().getPackageName();
                 shareIntent.putExtra(android.content.Intent.EXTRA_TEXT, app_url);
                 startActivity(Intent.createChooser(shareIntent, "Share via"));
-            } else if(powerMenu.getSelectedPosition() == 3) {
+            } else if (powerMenu.getSelectedPosition() == 3) {
                 powerMenu.dismiss();
                 Intent appInfoIntent = new Intent(android.provider.Settings.ACTION_APPLICATION_DETAILS_SETTINGS);
                 appInfoIntent.addCategory(Intent.CATEGORY_DEFAULT);
@@ -305,10 +305,10 @@ public class RecordFragment extends Fragment implements View.OnClickListener {
         installStateUpdatedListener = new InstallStateUpdatedListener() {
             @Override
             public void onStateUpdate(InstallState state) {
-                if (state.installStatus() == InstallStatus.DOWNLOADED){
+                if (state.installStatus() == InstallStatus.DOWNLOADED) {
                     popupSnackbarForCompleteUpdate();
-                } else if (state.installStatus() == InstallStatus.INSTALLED){
-                    if (mAppUpdateManager != null){
+                } else if (state.installStatus() == InstallStatus.INSTALLED) {
+                    if (mAppUpdateManager != null) {
                         mAppUpdateManager.unregisterListener(installStateUpdatedListener);
                     }
 
@@ -359,7 +359,7 @@ public class RecordFragment extends Fragment implements View.OnClickListener {
                         Snackbar.LENGTH_INDEFINITE);
 
         snackbar.setAction("Install", view -> {
-            if (mAppUpdateManager != null){
+            if (mAppUpdateManager != null) {
                 mAppUpdateManager.completeUpdate();
             }
         });

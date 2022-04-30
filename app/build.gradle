@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 30
-    buildToolsVersion "29.0.3"
+    compileSdkVersion 31
+    buildToolsVersion "31.0.0"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -12,11 +12,11 @@ android {
     defaultConfig {
         applicationId "com.developerdepository.said"
         minSdkVersion 23
-        targetSdkVersion 30
+        targetSdkVersion 31
         multiDexEnabled true
-        versionCode 6
-        versionName "1.4.2"
-        resConfig "en"
+        versionCode 7
+        versionName "1.4.3"
+        resConfigs 'en'
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -37,27 +37,27 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'androidx.appcompat:appcompat:1.3.1'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     //Google Material Design Library
-    implementation 'com.google.android.material:material:1.5.0-alpha01'
+    implementation 'com.google.android.material:material:1.5.0'
 
     //Android Jetpack Navigation
-    def nav_version = "2.3.5"
+    def nav_version = "2.4.2"
     implementation "androidx.navigation:navigation-fragment:$nav_version"
     implementation "androidx.navigation:navigation-ui:$nav_version"
 
     //In-App updates
-    implementation 'com.google.android.play:core:1.10.0'
+    implementation 'com.google.android.play:core:1.10.3'
 
     //Third Party Libraries
-    implementation 'com.shreyaspatil:MaterialDialog:2.1'                   //MaterialDialog Library
-    implementation 'com.airbnb.android:lottie:3.6.1'                       //Lottie Animations
-    implementation 'com.github.hajiyevelnur92:intentanimation:1.0'         //Intent Animation Library
-    implementation "com.github.skydoves:powermenu:2.1.3"                   //Power Menu Library
-    implementation 'com.github.hotchemi:android-rate:1.0.1'                //RateMe Library
+    implementation 'dev.shreyaspatil.MaterialDialog:MaterialDialog:2.2.3'     //MaterialDialog Library
+    implementation 'com.airbnb.android:lottie:5.0.3'                          //Lottie Animations
+    implementation 'com.github.hajiyevelnur92:intentanimation:1.0'            //Intent Animation Library
+    implementation "com.github.skydoves:powermenu:2.2.0"                      //Power Menu Library
+    implementation 'com.github.hotchemi:android-rate:1.0.1'                   //RateMe Library
 }

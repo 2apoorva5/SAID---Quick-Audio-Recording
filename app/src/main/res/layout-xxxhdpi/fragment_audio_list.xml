@@ -24,9 +24,9 @@
             android:clickable="true"
             android:focusable="true"
             android:padding="4dp"
-            android:tint="@color/viewColor"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"/>
+            app:layout_constraintStart_toStartOf="parent"
+            app:tint="@color/viewColor" />
 
         <TextView
             android:id="@+id/audio_list_title"

@@ -68,9 +68,9 @@
         android:focusable="true"
         android:scaleType="centerCrop"
         android:src="@drawable/list_item_delete"
-        android:tint="@color/viewColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:tint="@color/viewColor" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
